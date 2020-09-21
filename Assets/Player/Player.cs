@@ -14,13 +14,14 @@ public class Player : MonoBehaviour
     public float pulo;
     public float flechaForca;
     public float veloLimite;
-
     public int player;
+    private Quaternion arrow;
     // Start is called before the first frame update
     void Start()
     {
         rigidbody = GetComponent<Rigidbody2D>();
-        
+        arrow = Quaternion.identity;
+
     }
 
     // Update is called once per frame
@@ -30,12 +31,16 @@ public class Player : MonoBehaviour
         switch (player)
         {
             case 0:
-                if (Input.GetKey(KeyCode.Space) || Input.GetKeyUp(KeyCode.Space))
+                if (Input.GetKey(KeyCode.Space) || Input.GetKeyUp(KeyCode.Space)|| Input.GetKeyDown(KeyCode.Space))
                 {
+                    if (Input.GetKeyDown(KeyCode.Space))
+                    {
+                        arrow = ArrowDirection();
+                    }
             
                     if (Input.GetKeyUp(KeyCode.Space))
                     {
-                        var arrow = ArrowDirection();
+                        
                         var go = Instantiate(flecha, transform.position + Vector3.right * delta, arrow);
                         go.GetComponent<Rigidbody2D>().AddForce((arrow * Vector2.down) * flechaForca);
                         Physics2D.IgnoreCollision(go.GetComponent<Collider2D>(), GetComponent<Collider2D>());
@@ -44,7 +49,7 @@ public class Player : MonoBehaviour
              
             
                 }
-                else
+                
                 {
                     //Movimentação
             
@@ -84,9 +89,13 @@ public class Player : MonoBehaviour
                 break;
             
             case 1:
-                if (Input.GetKey(KeyCode.RightControl) || Input.GetKeyUp(KeyCode.RightControl))
+                if (Input.GetKey(KeyCode.RightControl) || Input.GetKeyUp(KeyCode.RightControl) || Input.GetKeyDown(KeyCode.RightControl))
                 {
-            
+                    
+                    if (Input.GetKeyDown(KeyCode.RightControl))
+                    {
+                        arrow = ArrowDirection();
+                    }
                     if (Input.GetKeyUp(KeyCode.RightControl))
                     {
                         var arrow = ArrowDirection();
@@ -98,7 +107,7 @@ public class Player : MonoBehaviour
              
             
                 }
-                else
+                
                 {
                     //Movimentação
             
