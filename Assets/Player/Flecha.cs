@@ -6,7 +6,7 @@ public class Flecha : MonoBehaviour
 {
     private Rigidbody2D rigid;
     public float delayDestroy;
-    //comentario aleatorio
+    //comentario aleatorioo
     // Start is called before the first frame update
     void Start()
     {
