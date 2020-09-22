@@ -154,7 +154,7 @@ public class Player : MonoBehaviour
         
         
         
-    }//Update
+    }//Update 1
 
     private void OnCollisionEnter2D(Collision2D other)
     {
