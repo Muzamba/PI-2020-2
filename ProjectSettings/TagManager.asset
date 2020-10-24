@@ -4,7 +4,8 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - chao
+  - Player-Pe
+  - Chao
   layers:
   - Default
   - TransparentFX
