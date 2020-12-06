@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Resources;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class LifeBar : MonoBehaviour
 {
@@ -22,20 +23,21 @@ public class LifeBar : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        RectTransform c = transform.parent.GetComponent<RectTransform>();
         _initialLife = player.GetComponent<NewPlayer>().life;
-        GetComponent<SpriteRenderer>().color = GetComponentInParent<Arqueira>().cor;
+        GetComponent<Image>().color = GetComponentInParent<Arqueira>().cor;
         
         
         if (player.GetComponentInParent<Arqueira>().player == 0)
         {
-            transform.position = new Vector2(-8,4);
+            GetComponent<RectTransform>().anchoredPosition = new Vector3(-540,240,0);//transform.position = c.position + new Vector3(-c.sizeDelta.x/2 + 100, c.sizeDelta.y / 2 - 70, 0); //new Vector2(-546,-70);
         }
         else
         {
-            space *= -1;
-            offsetX *= -1;
-            transform.position = new Vector2(8,4);
-            GetComponent<SpriteRenderer>().flipX = true;
+            //space *= -1;
+            //offsetX *= -1;
+            GetComponent<RectTransform>().anchoredPosition = new Vector3(540,240,0);
+            GetComponent<Image>().transform.rotation = Quaternion.Euler(0,180,0);
             
         }
         

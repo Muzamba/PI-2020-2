@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class SetaGuia : MonoBehaviour
 {
@@ -11,6 +12,7 @@ public class SetaGuia : MonoBehaviour
     void Start()
     {
         pai = GetComponentInParent<NewPlayer>().gameObject;
+        GetComponent<SpriteRenderer>().color = GetComponentsInParent<Arqueira>()[0].cor;
     }
 
     // Update is called once per frame
