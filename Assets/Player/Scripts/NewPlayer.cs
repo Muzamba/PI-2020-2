@@ -111,6 +111,7 @@ public class NewPlayer : MonoBehaviour
         }
 
         Grounded = false;
+        
 
     }
 

@@ -220,14 +220,14 @@ RectTransform:
   m_GameObject: {fileID: 2103146657568136623}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.5, y: 1.5, z: 2}
   m_Children: []
   m_Father: {fileID: 5225045228016612222}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 5, y: -10}
+  m_AnchoredPosition: {x: 7, y: -15}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &546481351446238172
@@ -347,6 +347,10 @@ PrefabInstance:
       propertyPath: m_Color.b
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5587419528408267493, guid: da409fbccca64eb4eaab7e179345b021, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: fce835680a6d4554481ae4dc159801c2, type: 2}
     - target: {fileID: 5587419529311025222, guid: da409fbccca64eb4eaab7e179345b021, type: 3}
       propertyPath: life
       value: 5
