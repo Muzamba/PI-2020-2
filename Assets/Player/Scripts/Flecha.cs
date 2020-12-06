@@ -17,7 +17,7 @@ public class Flecha : MonoBehaviour
     void Start()
     {
         rigid = GetComponent<Rigidbody2D>();
-        GameObject.Destroy(gameObject,delayDestroy);
+        Destroy(gameObject,delayDestroy);
     }
 
     // Update is called once per frame
@@ -31,26 +31,27 @@ public class Flecha : MonoBehaviour
         
     }
 
-    
 
+    private bool first = true;
     private void OnCollisionEnter2D(Collision2D other)
     {
-        GetComponent<AudioSource>().Stop();
-        GetComponentInChildren<SomColl>().PlaySound();
+        if (!first)
+        {
+            return;
+        }
         if (other.gameObject.CompareTag("Player"))
         {
-            other.gameObject.GetComponent<NewPlayer>().life -= damage;
-            other.gameObject.GetComponent<NewPlayer>().damaging = true;
-            other.gameObject.GetComponent<NewPlayer>().Playdamage();
-            other.gameObject.GetComponent<Rigidbody2D>().AddForce(new Vector2(forceX,forceY));
-            GameObject.Destroy(gameObject);
+            //other.gameObject.GetComponent<NewPlayer>().life -= damage;
+            //other.gameObject.GetComponent<NewPlayer>().damaging = true;
+            other.gameObject.GetComponent<NewPlayer>().TakeDamage(damage, new Vector2(forceX,forceY));
+            Destroy(gameObject);
+            first = false;
         }else if (other.gameObject.CompareTag("Chao"))
         {
             physiscsOff = true;
-            GameObject.Destroy(GetComponent<BoxCollider2D>());
-            GameObject.Destroy(rigid);
-            
-            
+            Destroy(GetComponent<BoxCollider2D>());
+            Destroy(rigid);
+            first = false;
         }
     }
 }

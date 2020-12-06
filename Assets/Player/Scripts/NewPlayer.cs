@@ -88,7 +88,7 @@ public class NewPlayer : MonoBehaviour
                 _leftS = KeyCode.F;
                 _rightS = KeyCode.H;
                 
-                transform.position = new Vector2(-8,-0.5f);
+                //transform.position = new Vector2(-8,-0.5f);
                 
                 break;
             
@@ -105,7 +105,7 @@ public class NewPlayer : MonoBehaviour
                 _leftS = KeyCode.LeftArrow;
                 _rightS = KeyCode.RightArrow;
                 
-                transform.position = new Vector2(8,-0.5f);
+                //transform.position = new Vector2(8,-0.5f);
                 
                 break;
         }
@@ -299,7 +299,10 @@ public class NewPlayer : MonoBehaviour
         _animator.SetBool("UpAngShot",false);
         _animator.SetBool("DownShot",false);
         _animator.SetBool("DownAngShot",false);
-        switch (resultado.eulerAngles.z)
+        float aux = resultado.eulerAngles.z < 0 ? resultado.eulerAngles.z + 360 : resultado.eulerAngles.z;
+        
+        
+        switch (Mathf.Round(aux))
         {
             case 0:
                 _animator.SetBool("DownShot",true);
@@ -311,12 +314,14 @@ public class NewPlayer : MonoBehaviour
                 _animator.SetBool("LinearShot",true);
                 break;
             case 135:
+                
                 _animator.SetBool("UpAngShot",true);
                 break;
             case 180:
                 _animator.SetBool("UpShot",true);
                 break;
             case 225:
+                
                 _animator.SetBool("UpAngShot",true);
                 break;
             case 270:
@@ -332,9 +337,11 @@ public class NewPlayer : MonoBehaviour
         return resultado;
     }
 
-    public void Playdamage()
+    public void TakeDamage(int damage,Vector2 knokForce)
     {
-        sound.GetComponent<AudioSource>().Play();
+        life -= damage;
+        damaging = true;
+        _rigi.AddForce(knokForce);
     }
     private void GetMomentum()
     {

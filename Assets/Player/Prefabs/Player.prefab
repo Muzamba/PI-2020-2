@@ -229,8 +229,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.08167378, y: -0.46044153}
-  m_Size: {x: 0.281435, y: 0.085853584}
+  m_Offset: {x: -0.011740597, y: -0.38051775}
+  m_Size: {x: 0.329961, y: 0.07443596}
   m_Direction: 1
 --- !u!114 &5587419528692529728
 MonoBehaviour:
@@ -271,8 +271,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5587419529311025244}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.83, y: -2.747, z: 0}
-  m_LocalScale: {x: 1.2, y: 1.2, z: 0.10540574}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 5587419528692529730}
   - {fileID: 5587419528408267495}
@@ -313,7 +313,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74058e5eb01357341b9116a54daf7df2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: 0
   speed: 250
   forceJump: 50
   startJump: 350
@@ -323,9 +322,13 @@ MonoBehaviour:
   shot: {fileID: 2119859681606577849, guid: a342b1d3a845c86499ac658d1122e835, type: 3}
   delta: 0
   shootForce: 500
-  raio: 0.7
-  acumultorCeil: 0.05
+  _shotDir: {x: 0, y: 0, z: 0, w: 0}
+  acumuShotCeil: 0
+  sprite: {fileID: 0}
+  acumuDamCeil: 0
   life: 20
+  damaging: 0
+  sound: {fileID: 0}
 --- !u!70 &5587419529311025240
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -339,6 +342,6 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.08208847, y: -0.032537222}
-  m_Size: {x: 0.44330502, y: 0.83825064}
+  m_Offset: {x: -0.016436815, y: 0.043104947}
+  m_Size: {x: 0.3919255, y: 0.82397854}
   m_Direction: 0
