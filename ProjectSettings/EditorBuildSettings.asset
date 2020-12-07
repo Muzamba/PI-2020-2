@@ -9,6 +9,9 @@ EditorBuildSettings:
     path: Assets/Scenes/MenuStart.unity
     guid: cb4f011d39906fd49b183415f7863e5f
   - enabled: 1
+    path: "Assets/Scenes/Selece\xE7aBoneco.unity"
+    guid: 668f6feffb30f8241ab274491f83722d
+  - enabled: 1
     path: Assets/Scenes/Base.unity
     guid: 6aa0203c00d98444aa54d825ca26a8fd
   m_configObjects: {}

@@ -1,8 +1,10 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using Unity.Mathematics;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using Random = UnityEngine.Random;
 
 public class EndGame : MonoBehaviour
 {
@@ -11,6 +13,9 @@ public class EndGame : MonoBehaviour
 
     public GameObject player1;
 
+    public GameObject arqueira;
+    public GameObject bumerangue;
+    
     public GameObject b1;
     public GameObject b2;
 
@@ -21,6 +26,31 @@ public class EndGame : MonoBehaviour
     void Start()
     {
         
+        if (Controlador.playerOne == 1)
+        {
+            player0 = Instantiate(arqueira, new Vector3(-5, -0.5f, 0), quaternion.identity);
+            player0.GetComponent<Arqueira>().player = 0;
+            player0.GetComponent<Arqueira>().cor = Random.ColorHSV(0, 1f, 0, 1f, 0, 1f, 1f, 1f);
+
+        }
+        else
+        {
+            player0 = Instantiate(bumerangue, new Vector3(-5, -0.5f, 0), quaternion.identity);
+            player0.GetComponent<Arqueira>().player = 0;
+            player0.GetComponent<Arqueira>().cor = Random.ColorHSV(0, 1f, 0, 1f, 0, 1f, 1f, 1f);
+        }
+        if (Controlador.playerTwo == 1)
+        {
+            player1 = Instantiate(arqueira, new Vector3(5, -0.5f, 0), quaternion.identity);
+            player1.GetComponent<Arqueira>().player = 1;
+            player1.GetComponent<Arqueira>().cor = Random.ColorHSV(0, 1f, 0, 1f, 0, 1f, 1f, 1f);
+        }
+        else
+        {
+            player1 = Instantiate(bumerangue, new Vector3(5, -0.5f, 0), quaternion.identity);
+            player1.GetComponent<Arqueira>().player = 1;
+            player1.GetComponent<Arqueira>().cor = Random.ColorHSV(0, 1f, 0, 1f, 0, 1f, 1f, 1f);
+        }
     }
 
     // Update is called once per frame

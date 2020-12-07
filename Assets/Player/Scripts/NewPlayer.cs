@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using FMODUnity;
 using UnityEngine;
 
 public class NewPlayer : MonoBehaviour
@@ -25,7 +26,7 @@ public class NewPlayer : MonoBehaviour
     //Movement
     private Rigidbody2D _rigi;
     public float speed;
-    private Vector2 _direction;
+    public Vector2 _direction;
     private bool _jumping;
     public bool Grounded { get; set; }
     public float forceJump;
@@ -59,14 +60,15 @@ public class NewPlayer : MonoBehaviour
     public int life;
     public bool damaging;
     
-    //Sound
-    public GameObject sound;
 
     public int maxTiros;
     [SerializeField] private int tirosAtuais;
     public float tempoRecarga;
 
     private float contador = 0;
+
+    public StudioEventEmitter somDano;
+    
     public void Recarregar(bool update)
     {
         if (shot.GetComponent<Flecha>())
@@ -280,6 +282,7 @@ public class NewPlayer : MonoBehaviour
             }
         }
 
+        
     }
     private void FixedUpdate()
     {
@@ -393,6 +396,7 @@ public class NewPlayer : MonoBehaviour
 
     public void TakeDamage(int damage,Vector2 knokForce)
     {
+        somDano.Play();
         life -= damage;
         damaging = true;
         _rigi.AddForce(knokForce);

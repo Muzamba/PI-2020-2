@@ -268,6 +268,29 @@ MonoBehaviour:
   offsetX: 75
   offsetY: 15
   space: 35
+--- !u!114 &3711300694840449066
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4672552646127143199}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  Event: event:/boomer dano
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 0
 --- !u!114 &780203392134865590
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -281,6 +304,29 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   radius: 0.7
+--- !u!114 &1123044469316292226
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4672552647824100102}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  Event: event:/graminha
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 0
 --- !u!1 &7544569685721361831
 GameObject:
   m_ObjectHideFlags: 0
@@ -327,7 +373,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cor: {r: 0.023534894, g: 1, b: 0, a: 1}
-  player: 1
+  player: 0
 --- !u!1001 &960038119389901123
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -363,6 +409,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: fce835680a6d4554481ae4dc159801c2, type: 2}
+    - target: {fileID: 5587419528692529728, guid: da409fbccca64eb4eaab7e179345b021, type: 3}
+      propertyPath: passos
+      value: 
+      objectReference: {fileID: 1123044469316292226}
     - target: {fileID: 5587419528692529731, guid: da409fbccca64eb4eaab7e179345b021, type: 3}
       propertyPath: m_Offset.x
       value: 0.011443963
@@ -423,6 +473,10 @@ PrefabInstance:
       propertyPath: airTime
       value: 0.1
       objectReference: {fileID: 0}
+    - target: {fileID: 5587419529311025222, guid: da409fbccca64eb4eaab7e179345b021, type: 3}
+      propertyPath: somDano
+      value: 
+      objectReference: {fileID: 3711300694840449066}
     - target: {fileID: 5587419529311025240, guid: da409fbccca64eb4eaab7e179345b021, type: 3}
       propertyPath: m_Offset.x
       value: 0.027448416
@@ -497,6 +551,11 @@ GameObject:
 --- !u!4 &4672552646127143193 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5587419529311025242, guid: da409fbccca64eb4eaab7e179345b021, type: 3}
+  m_PrefabInstance: {fileID: 960038119389901123}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &4672552647824100102 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5587419528692529733, guid: da409fbccca64eb4eaab7e179345b021, type: 3}
   m_PrefabInstance: {fileID: 960038119389901123}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &4672552647504120741 stripped

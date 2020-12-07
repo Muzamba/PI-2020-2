@@ -281,6 +281,52 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   radius: 0.7
+--- !u!114 &3331462796903937497
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6310337862710309757}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  Event: event:/graminha 2
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 0
+--- !u!114 &851459506040858290
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6310337863169749348}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  Event: event:/arqueira tomou dano
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 0
 --- !u!1 &9221504045062837724
 GameObject:
   m_ObjectHideFlags: 0
@@ -351,6 +397,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: fce835680a6d4554481ae4dc159801c2, type: 2}
+    - target: {fileID: 5587419528692529728, guid: da409fbccca64eb4eaab7e179345b021, type: 3}
+      propertyPath: passos
+      value: 
+      objectReference: {fileID: 3331462796903937497}
     - target: {fileID: 5587419529311025222, guid: da409fbccca64eb4eaab7e179345b021, type: 3}
       propertyPath: life
       value: 12
@@ -382,6 +432,14 @@ PrefabInstance:
     - target: {fileID: 5587419529311025222, guid: da409fbccca64eb4eaab7e179345b021, type: 3}
       propertyPath: tempoRecarga
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5587419529311025222, guid: da409fbccca64eb4eaab7e179345b021, type: 3}
+      propertyPath: somDano
+      value: 
+      objectReference: {fileID: 851459506040858290}
+    - target: {fileID: 5587419529311025222, guid: da409fbccca64eb4eaab7e179345b021, type: 3}
+      propertyPath: somPasso
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 5587419529311025242, guid: da409fbccca64eb4eaab7e179345b021, type: 3}
       propertyPath: m_LocalPosition.x
@@ -441,6 +499,11 @@ GameObject:
 --- !u!4 &6310337863169749346 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5587419529311025242, guid: da409fbccca64eb4eaab7e179345b021, type: 3}
+  m_PrefabInstance: {fileID: 1880343756088527160}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &6310337862710309757 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5587419528692529733, guid: da409fbccca64eb4eaab7e179345b021, type: 3}
   m_PrefabInstance: {fileID: 1880343756088527160}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &6310337862392689630 stripped
