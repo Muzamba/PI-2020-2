@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: Assets/Som/Build/Desktop/Master.strings.bank
   Name: Master.strings
-  lastModified: 637428662200830024
+  lastModified: 637428429240410035
   LoadResult: 0
   FileSizes:
   - Name: Desktop
@@ -34,7 +34,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: Assets/Som/Build/Desktop/Master.bank
   Name: Master
-  lastModified: 637428662200770180
+  lastModified: 637428429240041040
   LoadResult: 0
   FileSizes: []
   Exists: 1
@@ -59,5 +59,5 @@ MonoBehaviour:
   - {fileID: -3736292825662704110}
   StringsBanks:
   - {fileID: -4991409343883582979}
-  stringsBankWriteTime: 637428662200830024
+  stringsBankWriteTime: 637428429240410035
   cacheVersion: 5
