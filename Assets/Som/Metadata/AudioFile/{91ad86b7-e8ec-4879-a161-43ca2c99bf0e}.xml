@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="AudioFile" id="{91ad86b7-e8ec-4879-a161-43ca2c99bf0e}">
+		<property name="assetPath">
+			<value>passos na grama01.mp3</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>4.2579591836734698</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{80e359b0-a1e0-4369-b548-af9425649879}</destination>
+		</relationship>
+	</object>
+</objects>

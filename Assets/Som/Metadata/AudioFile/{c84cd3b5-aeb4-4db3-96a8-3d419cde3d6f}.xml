@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="AudioFile" id="{c84cd3b5-aeb4-4db3-96a8-3d419cde3d6f}">
+		<property name="assetPath">
+			<value>arqueiro na grama.mp3</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>4.5359999999999996</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{80e359b0-a1e0-4369-b548-af9425649879}</destination>
+		</relationship>
+	</object>
+</objects>
