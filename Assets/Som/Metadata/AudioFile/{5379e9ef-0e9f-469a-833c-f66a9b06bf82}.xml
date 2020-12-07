@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="AudioFile" id="{5379e9ef-0e9f-469a-833c-f66a9b06bf82}">
+		<property name="assetPath">
+			<value>atirando boomerang.mp3</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>4.3920000000000003</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{80e359b0-a1e0-4369-b548-af9425649879}</destination>
+		</relationship>
+	</object>
+</objects>
