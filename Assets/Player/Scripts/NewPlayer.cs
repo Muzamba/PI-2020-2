@@ -61,14 +61,42 @@ public class NewPlayer : MonoBehaviour
     
     //Sound
     public GameObject sound;
-    
-    
+
+    public int maxTiros;
+    [SerializeField] private int tirosAtuais;
+    public float tempoRecarga;
+
+    private float contador = 0;
+    public void Recarregar(bool update)
+    {
+        if (shot.GetComponent<Flecha>())
+        {
+            contador += Time.deltaTime;
+            if (contador > tempoRecarga)
+            {
+                contador = 0;
+                if (tirosAtuais < maxTiros)
+                {
+                    tirosAtuais++;
+                }
+            }
+        }
+        else
+        {
+            if (!update)
+            {
+                tirosAtuais++;
+            }
+        }
+        
+    }
     
     
     // Start is called before the first frame update
     void Start()
     {
-        life = 5;
+        //life = 5;
+        tirosAtuais = maxTiros;
         _player = GetComponentInParent<Arqueira>().player;
         _shotDir = Quaternion.Euler(0,0,90);
         _rigi = this.GetComponent<Rigidbody2D>();
@@ -118,6 +146,7 @@ public class NewPlayer : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        Recarregar(true);
         if(!EndGame.gameover){
             // Shoot
             if (_acumuShot < acumuShotCeil)
@@ -134,24 +163,48 @@ public class NewPlayer : MonoBehaviour
 
             if (Input.GetKeyDown(_shoot))
             {
-                _shooting = true;
-                _animator.SetBool("ShootPress", true);
-                _animator.SetBool("ShootRelease", false);
+                if (tirosAtuais > 0)
+                {
+                    _shooting = true;
+                    _animator.SetBool("ShootPress", true);
+                    _animator.SetBool("ShootRelease", false);
+                }
             }
             else if (Input.GetKeyUp(_shoot))
             {
-                var localShot = ArrowDirection();
-                var go = GameObject.Instantiate(shot, transform.position + Vector3.right * delta, localShot);
-                go.GetComponent<Rigidbody2D>().AddForce((localShot * Vector2.down) * shootForce);
-                var aux = gameObject.GetComponentsInChildren<Collider2D>();
-                foreach (Collider2D colisor in aux)
+                if (tirosAtuais > 0)
                 {
-                    Physics2D.IgnoreCollision(go.GetComponent<Collider2D>(), colisor);
-                }
+                    tirosAtuais--;
+                    var localShot = ArrowDirection();
+                    var go = Instantiate(shot, transform.position + Vector3.right * delta, localShot);
+                    //go.transform.position = transform.position + Vector3.right * delta;
+                    //go.transform.rotation = localShot;
+                    var sux = go.GetComponent<Bumerangue>();
+                    if (sux)
+                    {
 
-                _shooting = false;
-                _animator.SetBool("ShootPress", false);
-                _animator.SetBool("ShootRelease", true);
+                        sux.dir = localShot * Vector2.down;
+
+                        sux._player = transform;
+
+                    }
+
+                    var sux2 = go.GetComponent<Flecha>();
+                    if (sux2)
+                    {
+                        go.GetComponent<Rigidbody2D>().AddForce((localShot * Vector2.down) * shootForce);
+                    }
+
+                    var aux = gameObject.GetComponentsInChildren<Collider2D>();
+                    foreach (Collider2D colisor in aux)
+                    {
+                        Physics2D.IgnoreCollision(go.GetComponent<Collider2D>(), colisor);
+                    }
+
+                    _shooting = false;
+                    _animator.SetBool("ShootPress", false);
+                    _animator.SetBool("ShootRelease", true);
+                }
             }
 
             //Movement
@@ -198,12 +251,12 @@ public class NewPlayer : MonoBehaviour
                 if (_shotDir.eulerAngles.z < 180)
                 {
                     sprite.GetComponent<SpriteRenderer>().flipX = false;
-                    sprite.transform.localPosition = new Vector2(0, 0);
+                    //sprite.transform.localPosition = new Vector2(0, 0);
                 }
                 else
                 {
                     sprite.GetComponent<SpriteRenderer>().flipX = true;
-                    sprite.transform.localPosition = new Vector2(-0.15f, 0);
+                    //sprite.transform.localPosition = new Vector2(-0.15f, 0);
                 }
             }
             else
@@ -211,12 +264,12 @@ public class NewPlayer : MonoBehaviour
                 if (_direction.x > 0)
                 {
                     sprite.GetComponent<SpriteRenderer>().flipX = false;
-                    sprite.transform.localPosition = new Vector2(0, 0);
+                    //sprite.transform.localPosition = new Vector2(0, 0);
                 }
                 else if (_direction.x < 0)
                 {
                     sprite.GetComponent<SpriteRenderer>().flipX = true;
-                    sprite.transform.localPosition = new Vector2(-0.15f, 0);
+                    //sprite.transform.localPosition = new Vector2(-0.15f, 0);
                 }
             }
 
