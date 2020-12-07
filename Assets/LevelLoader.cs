@@ -8,10 +8,7 @@ public class LevelLoader : MonoBehaviour
     public float time = 1f;
     void Update()
     {
-        if (Input.GetMouseButtonDown(0))
-        {
-            LoadNextLevel();
-        }
+        
     }
 
     public void LoadNextLevel()
