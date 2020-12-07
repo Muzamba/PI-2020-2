@@ -385,7 +385,7 @@ PrefabInstance:
       objectReference: {fileID: 3691900481539679453, guid: 088700068004c9446afc5b478e8f2f02, type: 3}
     - target: {fileID: 5587419529311025222, guid: da409fbccca64eb4eaab7e179345b021, type: 3}
       propertyPath: life
-      value: 6
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 5587419529311025222, guid: da409fbccca64eb4eaab7e179345b021, type: 3}
       propertyPath: sprite
@@ -410,6 +410,18 @@ PrefabInstance:
     - target: {fileID: 5587419529311025222, guid: da409fbccca64eb4eaab7e179345b021, type: 3}
       propertyPath: tempoRecarga
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5587419529311025222, guid: da409fbccca64eb4eaab7e179345b021, type: 3}
+      propertyPath: speed
+      value: 200
+      objectReference: {fileID: 0}
+    - target: {fileID: 5587419529311025222, guid: da409fbccca64eb4eaab7e179345b021, type: 3}
+      propertyPath: startJump
+      value: 300
+      objectReference: {fileID: 0}
+    - target: {fileID: 5587419529311025222, guid: da409fbccca64eb4eaab7e179345b021, type: 3}
+      propertyPath: airTime
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: 5587419529311025240, guid: da409fbccca64eb4eaab7e179345b021, type: 3}
       propertyPath: m_Offset.x

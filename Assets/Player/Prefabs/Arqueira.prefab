@@ -353,7 +353,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: fce835680a6d4554481ae4dc159801c2, type: 2}
     - target: {fileID: 5587419529311025222, guid: da409fbccca64eb4eaab7e179345b021, type: 3}
       propertyPath: life
-      value: 6
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 5587419529311025222, guid: da409fbccca64eb4eaab7e179345b021, type: 3}
       propertyPath: sprite
@@ -373,7 +373,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5587419529311025222, guid: da409fbccca64eb4eaab7e179345b021, type: 3}
       propertyPath: shootForce
-      value: 650
+      value: 575
       objectReference: {fileID: 0}
     - target: {fileID: 5587419529311025222, guid: da409fbccca64eb4eaab7e179345b021, type: 3}
       propertyPath: maxTiros
@@ -381,7 +381,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5587419529311025222, guid: da409fbccca64eb4eaab7e179345b021, type: 3}
       propertyPath: tempoRecarga
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 5587419529311025242, guid: da409fbccca64eb4eaab7e179345b021, type: 3}
       propertyPath: m_LocalPosition.x

@@ -77,7 +77,7 @@ public class Bumerangue : MonoBehaviour
             //other.gameObject.GetComponent<NewPlayer>().life -= damage;
             //other.gameObject.GetComponent<NewPlayer>().damaging = true;
             other.gameObject.GetComponent<NewPlayer>().TakeDamage(dano, new Vector2(forceX, forceY));
-            Destroy(gameObject);
+            //Destroy(gameObject);
             _first2 = false;
         }
     }
