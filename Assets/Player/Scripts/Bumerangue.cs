@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using FMODUnity;
 using UnityEngine;
 
 public class Bumerangue : MonoBehaviour
@@ -16,6 +17,7 @@ public class Bumerangue : MonoBehaviour
     public int dano;
     public float forceX;
     public float forceY;
+    public StudioEventEmitter impacto;
     
     private float acumulador = 0;
     void Start()
@@ -65,6 +67,7 @@ public class Bumerangue : MonoBehaviour
     private bool _first2= true;
     private void OnCollisionEnter2D(Collision2D other)
     {
+        impacto.Play();
         _first = false;
         acumulador = _tempoVoo;
         if (!_first2)

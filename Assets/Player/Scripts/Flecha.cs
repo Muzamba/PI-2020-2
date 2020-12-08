@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using FMODUnity;
 using UnityEngine;
 
 public class Flecha : MonoBehaviour
@@ -10,6 +11,8 @@ public class Flecha : MonoBehaviour
     public int damage;
     private Rigidbody2D rigid;
     public float delayDestroy;
+    public StudioEventEmitter impacto;
+    public StudioEventEmitter flechaVoando;
 
     private bool physiscsOff;
     //comentario aleatorioo
@@ -41,6 +44,8 @@ public class Flecha : MonoBehaviour
         }
         if (other.gameObject.CompareTag("Player"))
         {
+            flechaVoando.Stop();
+            impacto.Play();
             //other.gameObject.GetComponent<NewPlayer>().life -= damage;
             //other.gameObject.GetComponent<NewPlayer>().damaging = true;
             other.gameObject.GetComponent<NewPlayer>().TakeDamage(damage, new Vector2(forceX,forceY));
@@ -48,6 +53,8 @@ public class Flecha : MonoBehaviour
             first = false;
         }else if (other.gameObject.CompareTag("Chao"))
         {
+            flechaVoando.Stop();
+            impacto.Play();
             physiscsOff = true;
             Destroy(GetComponent<BoxCollider2D>());
             Destroy(rigid);

@@ -1,0 +1,973 @@
+fileFormatVersion: 2
+guid: 0b10eb3e99856344590255a169c50317
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3931895201227159711
+    second: walk_0
+  - first:
+      213: -4500631488359789172
+    second: walk_6
+  - first:
+      213: 6970343476391226797
+    second: baixo_0
+  - first:
+      213: -6685538458709145313
+    second: cima_0
+  - first:
+      213: 5815788256878957427
+    second: idle_0
+  - first:
+      213: 5648489534262925248
+    second: lado_0
+  - first:
+      213: -5869447605839433624
+    second: walk_1
+  - first:
+      213: 599818558425405009
+    second: walk_7
+  - first:
+      213: -3068951234366806266
+    second: baixo_1
+  - first:
+      213: 4940604919705881337
+    second: cima_1
+  - first:
+      213: 4915289165116047902
+    second: idle_1
+  - first:
+      213: -7673579104546784207
+    second: lado_1
+  - first:
+      213: -229471006405458646
+    second: walk_2
+  - first:
+      213: -5716896060944466716
+    second: walk_8
+  - first:
+      213: 5053698320560402193
+    second: baixo_2
+  - first:
+      213: 3496191237947142839
+    second: cima_2
+  - first:
+      213: -8030337809599838796
+    second: idle_2
+  - first:
+      213: 4018111683017008495
+    second: lado_2
+  - first:
+      213: -7631160223353514794
+    second: walk_3
+  - first:
+      213: 6915361722964618774
+    second: walk_9
+  - first:
+      213: -4955891672854413347
+    second: baixo_3
+  - first:
+      213: -68524854749161036
+    second: cima_3
+  - first:
+      213: -11107342186461669
+    second: idle_3
+  - first:
+      213: 2408958664720838448
+    second: lado_3
+  - first:
+      213: -2952856283328406266
+    second: walk_4
+  - first:
+      213: -6616696889523537368
+    second: walk_10
+  - first:
+      213: 2528185736636422514
+    second: baixo_4
+  - first:
+      213: 6402592312993500930
+    second: cima_4
+  - first:
+      213: -8702803936118559200
+    second: idle_4
+  - first:
+      213: 7602597848466488531
+    second: lado_4
+  - first:
+      213: -6836160514047532457
+    second: walk_5
+  - first:
+      213: -8696820088238214997
+    second: minaFinal_31
+  - first:
+      213: -1566802016258308442
+    second: minaFinal_32
+  - first:
+      213: -4921085959100641
+    second: cima_5
+  - first:
+      213: -8477976469532938469
+    second: minaFinal_34
+  - first:
+      213: -1623640785584727134
+    second: minaFinal_35
+  - first:
+      213: -4412099697369919507
+    second: minaFinal_36
+  - first:
+      213: 6311328222783508502
+    second: minaFinal_37
+  - first:
+      213: -7503613233929406478
+    second: lado_5
+  - first:
+      213: 6884538012208370472
+    second: cima_6
+  - first:
+      213: 1945132340601737003
+    second: lado_6
+  - first:
+      213: 8915433138535324837
+    second: minaFinal_41
+  - first:
+      213: 1456305326628234775
+    second: minaFinal_42
+  - first:
+      213: 3886989005312919353
+    second: minaFinal_43
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: walk_0
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 1260
+        width: 85
+        height: 113
+      alignment: 9
+      pivot: {x: 0.45882353, y: 0.4159292}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 167cac4852a1f69c0800000000000000
+      internalID: -3931895201227159711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk_6
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 1258
+        width: 89
+        height: 118
+      alignment: 9
+      pivot: {x: 0.5168539, y: 0.41525424}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8d8067b18b8a81c0800000000000000
+      internalID: -4500631488359789172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baixo_0
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 1210
+        width: 109
+        height: 141
+      alignment: 9
+      pivot: {x: 0.43119264, y: 0.4822695}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dada2c81672abb060800000000000000
+      internalID: 6970343476391226797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cima_0
+      rect:
+        serializedVersion: 2
+        x: 761
+        y: 1208
+        width: 97
+        height: 137
+      alignment: 9
+      pivot: {x: 0.4329897, y: 0.48175183}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f19cd6c71323833a0800000000000000
+      internalID: -6685538458709145313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_0
+      rect:
+        serializedVersion: 2
+        x: 943
+        y: 1187
+        width: 112
+        height: 143
+      alignment: 9
+      pivot: {x: 0.4464286, y: 0.44755244}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37398243b94d5b050800000000000000
+      internalID: 5815788256878957427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lado_0
+      rect:
+        serializedVersion: 2
+        x: 1177
+        y: 1182
+        width: 127
+        height: 149
+      alignment: 9
+      pivot: {x: 0.48818898, y: 0.44966444}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c7d04fed47736e40800000000000000
+      internalID: 5648489534262925248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk_1
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 1091
+        width: 99
+        height: 123
+      alignment: 9
+      pivot: {x: 0.4949495, y: 0.45528454}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8607c2a00888b8ea0800000000000000
+      internalID: -5869447605839433624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk_7
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 1083
+        width: 98
+        height: 136
+      alignment: 9
+      pivot: {x: 0.47959182, y: 0.47058824}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15612a80dcbf25800800000000000000
+      internalID: 599818558425405009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baixo_1
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 1051
+        width: 106
+        height: 138
+      alignment: 9
+      pivot: {x: 0.46226415, y: 0.48550725}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 607e192cc15e865d0800000000000000
+      internalID: -3068951234366806266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cima_1
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 1058
+        width: 98
+        height: 126
+      alignment: 9
+      pivot: {x: 0.4387755, y: 0.44444448}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9facd9e7ffd809440800000000000000
+      internalID: 4940604919705881337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_1
+      rect:
+        serializedVersion: 2
+        x: 946
+        y: 1029
+        width: 105
+        height: 138
+      alignment: 9
+      pivot: {x: 0.44761905, y: 0.44927537}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e12811f047d963440800000000000000
+      internalID: 4915289165116047902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lado_1
+      rect:
+        serializedVersion: 2
+        x: 1189
+        y: 1027
+        width: 98
+        height: 130
+      alignment: 9
+      pivot: {x: 0.5102041, y: 0.47692308}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13cf0a5f578f18590800000000000000
+      internalID: -7673579104546784207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk_2
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 928
+        width: 95
+        height: 127
+      alignment: 9
+      pivot: {x: 0.5052632, y: 0.46456692}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2583f0e551c0dcf0800000000000000
+      internalID: -229471006405458646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk_8
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 925
+        width: 96
+        height: 133
+      alignment: 9
+      pivot: {x: 0.46875, y: 0.46616542}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ec339d625189a0b0800000000000000
+      internalID: -5716896060944466716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baixo_2
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 895
+        width: 105
+        height: 126
+      alignment: 9
+      pivot: {x: 0.50476193, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11fadfec8d7522640800000000000000
+      internalID: 5053698320560402193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cima_2
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 895
+        width: 96
+        height: 130
+      alignment: 9
+      pivot: {x: 0.4479167, y: 0.45384616}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b23ca44867f48030800000000000000
+      internalID: 3496191237947142839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_2
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 856
+        width: 116
+        height: 152
+      alignment: 9
+      pivot: {x: 0.45689654, y: 0.49342105}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b5c9680f428e8090800000000000000
+      internalID: -8030337809599838796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lado_2
+      rect:
+        serializedVersion: 2
+        x: 1194
+        y: 872
+        width: 92
+        height: 124
+      alignment: 9
+      pivot: {x: 0.48913044, y: 0.4596774}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f65631e694333c730800000000000000
+      internalID: 4018111683017008495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk_3
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 773
+        width: 85
+        height: 127
+      alignment: 9
+      pivot: {x: 0.48235294, y: 0.42519686}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d45cee553ca81690800000000000000
+      internalID: -7631160223353514794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk_9
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 769
+        width: 93
+        height: 127
+      alignment: 9
+      pivot: {x: 0.4516129, y: 0.4566929}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61ea3ae09dc48ff50800000000000000
+      internalID: 6915361722964618774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baixo_3
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 732
+        width: 102
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5294118, y: 0.515625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddf323ee7c2293bb0800000000000000
+      internalID: -4955891672854413347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cima_3
+      rect:
+        serializedVersion: 2
+        x: 754
+        y: 735
+        width: 105
+        height: 131
+      alignment: 9
+      pivot: {x: 0.4666667, y: 0.45038167}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b91466f10d8c0ff0800000000000000
+      internalID: -68524854749161036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_3
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 702
+        width: 110
+        height: 134
+      alignment: 9
+      pivot: {x: 0.43636364, y: 0.51492536}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b16c39e5ee988dff0800000000000000
+      internalID: -11107342186461669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lado_3
+      rect:
+        serializedVersion: 2
+        x: 1185
+        y: 712
+        width: 99
+        height: 132
+      alignment: 9
+      pivot: {x: 0.54545456, y: 0.4318182}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03fe84174275e6120800000000000000
+      internalID: 2408958664720838448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk_4
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 611
+        width: 90
+        height: 127
+      alignment: 9
+      pivot: {x: 0.47777778, y: 0.44094488}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60d1e6fead85507d0800000000000000
+      internalID: -2952856283328406266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk_10
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 594
+        width: 103
+        height: 143
+      alignment: 9
+      pivot: {x: 0.5048544, y: 0.5104895}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82a74895c35cc24a0800000000000000
+      internalID: -6616696889523537368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baixo_4
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 569
+        width: 113
+        height: 140
+      alignment: 9
+      pivot: {x: 0.4778761, y: 0.49285716}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2795c66588be51320800000000000000
+      internalID: 2528185736636422514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cima_4
+      rect:
+        serializedVersion: 2
+        x: 758
+        y: 578
+        width: 108
+        height: 128
+      alignment: 9
+      pivot: {x: 0.41666666, y: 0.4375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20fcf9949c39ad850800000000000000
+      internalID: 6402592312993500930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_4
+      rect:
+        serializedVersion: 2
+        x: 949
+        y: 549
+        width: 104
+        height: 134
+      alignment: 9
+      pivot: {x: 0.42307693, y: 0.46268657}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02e28c5fded693780800000000000000
+      internalID: -8702803936118559200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lado_4
+      rect:
+        serializedVersion: 2
+        x: 1167
+        y: 532
+        width: 140
+        height: 161
+      alignment: 9
+      pivot: {x: 0.51428574, y: 0.47826087}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dc7eff767ad18960800000000000000
+      internalID: 7602597848466488531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk_5
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 448
+        width: 107
+        height: 137
+      alignment: 9
+      pivot: {x: 0.42990652, y: 0.43065694}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75225a46b341121a0800000000000000
+      internalID: -6836160514047532457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cima_5
+      rect:
+        serializedVersion: 2
+        x: 749
+        y: 415
+        width: 126
+        height: 136
+      alignment: 9
+      pivot: {x: 0.42857146, y: 0.43382353}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f17af736c448eeff0800000000000000
+      internalID: -4921085959100641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lado_5
+      rect:
+        serializedVersion: 2
+        x: 1172
+        y: 377
+        width: 132
+        height: 145
+      alignment: 9
+      pivot: {x: 0.50757575, y: 0.49655172}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f7b7b3058fcdd790800000000000000
+      internalID: -7503613233929406478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cima_6
+      rect:
+        serializedVersion: 2
+        x: 757
+        y: 259
+        width: 110
+        height: 132
+      alignment: 9
+      pivot: {x: 0.4181818, y: 0.4166667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8239a54a8daca8f50800000000000000
+      internalID: 6884538012208370472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lado_6
+      rect:
+        serializedVersion: 2
+        x: 1176
+        y: 233
+        width: 123
+        height: 131
+      alignment: 9
+      pivot: {x: 0.5121951, y: 0.4274809}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2fc0bade8f7efa10800000000000000
+      internalID: 1945132340601737003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

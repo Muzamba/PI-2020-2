@@ -1,5 +1,28 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-7031614932779357256
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Musicajogo
+  m_EditorClassIdentifier: 
+  Path: event:/Musicajogo
+  guid: e8291c2e3d88a349ab15c8bb4f802498
+  Banks:
+  - {fileID: -3736292825662704110}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 197041
 --- !u!114 &-4991409343883582979
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14,12 +37,35 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: Assets/Som/Build/Desktop/Master.strings.bank
   Name: Master.strings
-  lastModified: 637428662200830024
+  lastModified: 637429194143829069
   LoadResult: 0
   FileSizes:
   - Name: Desktop
-    Value: 700
+    Value: 1276
   Exists: 1
+--- !u!114 &-4272386552312201563
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/graminha 2
+  m_EditorClassIdentifier: 
+  Path: event:/graminha 2
+  guid: fa15cb3834d0c242860fff38c9f740d1
+  Banks:
+  - {fileID: -3736292825662704110}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 300
 --- !u!114 &-3736292825662704110
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -34,7 +80,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: Assets/Som/Build/Desktop/Master.bank
   Name: Master
-  lastModified: 637428662200770180
+  lastModified: 637429194143753825
   LoadResult: 0
   FileSizes: []
   Exists: 1
@@ -53,11 +99,297 @@ MonoBehaviour:
   EditorBanks:
   - {fileID: -4991409343883582979}
   - {fileID: -3736292825662704110}
-  EditorEvents: []
+  EditorEvents:
+  - {fileID: 5450062250499098166}
+  - {fileID: 7864550427776636502}
+  - {fileID: 2732435663771452987}
+  - {fileID: 903813769665309727}
+  - {fileID: 9178485469805002254}
+  - {fileID: 6898098273027286432}
+  - {fileID: 3133796508771458938}
+  - {fileID: -4272386552312201563}
+  - {fileID: 4165555936944791429}
+  - {fileID: 7998767787404755327}
+  - {fileID: 7502507027713022022}
+  - {fileID: -7031614932779357256}
   EditorParameters: []
   MasterBanks:
   - {fileID: -3736292825662704110}
   StringsBanks:
   - {fileID: -4991409343883582979}
-  stringsBankWriteTime: 637428662200830024
+  stringsBankWriteTime: 637429194143829069
   cacheVersion: 5
+--- !u!114 &903813769665309727
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/boomer dano
+  m_EditorClassIdentifier: 
+  Path: event:/boomer dano
+  guid: 6a970f0d915aef43a03ac569d4f06e61
+  Banks:
+  - {fileID: -3736292825662704110}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 740
+--- !u!114 &1539612992893615356
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/musicajogo
+  m_EditorClassIdentifier: 
+  Path: event:/musicajogo
+  guid: e8291c2e3d88a349ab15c8bb4f802498
+  Banks: []
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 197041
+--- !u!114 &2684400976422556170
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/musicamenu
+  m_EditorClassIdentifier: 
+  Path: event:/musicamenu
+  guid: cc70b8b51e672d43b4cc3e392f1fc41d
+  Banks: []
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 125910
+--- !u!114 &2732435663771452987
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/arqueira tomou dano
+  m_EditorClassIdentifier: 
+  Path: event:/arqueira tomou dano
+  guid: 658e881a6c803849ad31cb0b3d6cb2af
+  Banks:
+  - {fileID: -3736292825662704110}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 822
+--- !u!114 &3133796508771458938
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/impacto bomer
+  m_EditorClassIdentifier: 
+  Path: event:/impacto bomer
+  guid: f4c4f8cbb068484c8739878637a8ae2c
+  Banks:
+  - {fileID: -3736292825662704110}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 696
+--- !u!114 &4165555936944791429
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/bootao menu
+  m_EditorClassIdentifier: 
+  Path: event:/bootao menu
+  guid: 33be36fe25a4a847907eea6e6d20cec4
+  Banks:
+  - {fileID: -3736292825662704110}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 309
+--- !u!114 &5450062250499098166
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/graminha
+  m_EditorClassIdentifier: 
+  Path: event:/graminha
+  guid: 0a725062e834e2419a725de603a117a1
+  Banks:
+  - {fileID: -3736292825662704110}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 600
+--- !u!114 &6898098273027286432
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Flecha som
+  m_EditorClassIdentifier: 
+  Path: event:/Flecha som
+  guid: ec549f622b7bb745afa3b36722f44c2f
+  Banks:
+  - {fileID: -3736292825662704110}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 680
+--- !u!114 &7502507027713022022
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Musicamenu
+  m_EditorClassIdentifier: 
+  Path: event:/Musicamenu
+  guid: cc70b8b51e672d43b4cc3e392f1fc41d
+  Banks:
+  - {fileID: -3736292825662704110}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 125910
+--- !u!114 &7864550427776636502
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/atirando boomerang
+  m_EditorClassIdentifier: 
+  Path: event:/atirando boomerang
+  guid: 3ac6676432348e459a17478d7ed6d973
+  Banks:
+  - {fileID: -3736292825662704110}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 250
+--- !u!114 &7998767787404755327
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Musica tela de personagem
+  m_EditorClassIdentifier: 
+  Path: event:/Musica tela de personagem
+  guid: 52fc7726e7944c4db8f5844b003a57a8
+  Banks:
+  - {fileID: -3736292825662704110}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 157036
+--- !u!114 &9178485469805002254
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/impacto flecha
+  m_EditorClassIdentifier: 
+  Path: event:/impacto flecha
+  guid: 83b35c8596bbdd47a60478ac781b236f
+  Banks:
+  - {fileID: -3736292825662704110}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 473
